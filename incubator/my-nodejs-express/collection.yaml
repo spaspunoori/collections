@@ -1,0 +1,6 @@
+default-image: my-nodejs-express
+default-pipeline: my-nodejs-express-test-build-deploy-pipeline
+images:
+- id: my-nodejs-express
+  image: $IMAGE_REGISTRY_ORG/my-nodejs-express:0.4
+
